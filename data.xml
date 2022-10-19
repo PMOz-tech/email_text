@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITranslate</name>
+    </assembly>
+    <members>
+        <member name="M:APITranslate.Implementation.TranslateService.IsNotEnglish(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="language"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APITranslate.Implementation.TranslateService.FindByIsbn(System.String)">
+            <summary>
+            Searches and returns the book identified by the specified ISBN.
+            </summary>
+            <param name="isbn">The <see cref="T:System.String"/> instance that represents the ISBN of the book to search for.</param>
+            <returns>An instance of the <see cref="!:Book"/> class representing the element with the specified ISBN, if found; otherwise, <c>null</c>.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="isbn"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="isbn"/> is an empty or white-space string.
+            </exception>
+        </member>
+    </members>
+</doc>
